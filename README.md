@@ -3,6 +3,8 @@
 ### Description
 The Map Suite MVC QuickStart Guide will guide you through the process of creating a sample application and will help you become familiar with Map Suite. The QuickStart Guide supports Map Suite 10.0.0.0 and higher and will show you how to create an ASP.NET MVC application. 
 
+Please refer to [Wiki](http://wiki.thinkgeo.com/wiki/map_suite_desktop_for_wpf) for the details.
+
 ![Screenshot](https://github.com/ThinkGeo/QuickstartSample-ForMvc/blob/master/Screenshot.PNG)
 
 ### Requirements
@@ -16,9 +18,9 @@ Working...
 
 ### Getting Help
 
-[Map Suite Mvc Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_mvc_edition)
+[Map Suite Mvc Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_web_for_mvc)
 
-[Map Suite Mvc Product Description](http://thinkgeo.com/map-suite-developer-gis/mvc-edition/)
+[Map Suite Mvc Product Description](https://thinkgeo.com/ui-controls#web-platforms)
 
 [ThinkGeo Community Site](http://community.thinkgeo.com/)
 
