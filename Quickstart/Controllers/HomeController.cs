@@ -5,7 +5,7 @@ using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Mvc;
 using ThinkGeo.MapSuite.Styles;
 
-namespace QuickstartSample.Controllers
+namespace Quickstart.Controllers
 {
     public class HomeController : Controller
     {
