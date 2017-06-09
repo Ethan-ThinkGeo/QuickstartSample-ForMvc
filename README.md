@@ -14,7 +14,16 @@ This sample makes use of the following NuGet Packages
 
 ### About the Code
 
-Working...
+```csharp
+ ShapeFileFeatureLayer worldLayer = new ShapeFileFeatureLayer(Server.MapPath("~/App_Data/USStates.SHP"));
+                AreaStyle areaStyle = new AreaStyle();
+                areaStyle.FillSolidBrush = new GeoSolidBrush(GeoColor.FromArgb(255, 233, 232, 214));
+                areaStyle.OutlinePen = new GeoPen(GeoColor.FromArgb(255, 156, 155, 154), 2);
+                areaStyle.OutlinePen.DashStyle = LineDashStyle.Solid;
+                worldLayer.ZoomLevelSet.ZoomLevel01.DefaultAreaStyle = areaStyle;
+                worldLayer.ZoomLevelSet.ZoomLevel01.ApplyUntilZoomLevel = ApplyUntilZoomLevel.Level20;
+                overlay.Layers.Add(worldLayer);
+```
 
 ### Getting Help
 
@@ -29,7 +38,9 @@ Working...
 ### Key APIs
 This example makes use of the following APIs:
 
-Working...
+- [ThinkGeo.MapSuite.Styles.AreaStyle](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.areastyle)
+- [ThinkGeo.MapSuite.Styles.PointStyle](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.pointstyle)
+- [ThinkGeo.MapSuite.Styles.TextStyle](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.textstyle)
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
